@@ -1,0 +1,30 @@
+[class*='container'],
+[class^='col'],
+.debug{
+  background-color: rgba(0,255,0,.2);
+  border: 1px solid black;
+  min-height: 500px;
+}
+
+
+ul li{
+  list-style: none;
+}
+
+/* debug */
+.card{
+  min-width: 200px;
+}
+
+.mc-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-light-green{
+  background-color: #19BC9C;
+}
+
+.section-white{
+  background-color: white;
+}
