@@ -1,13 +1,17 @@
-[class*='container'],
+/* [class*='container'],
 [class^='col'],
 .debug{
   background-color: rgba(0,255,0,.2);
   border: 1px solid black;
-  min-height: 100%;
+  height: 100%;
+} */
+
+.col{
+  height: 100%;
 }
 
 header{
-  height: 70px;
+  background-color: #2B3E50;
 }
 
 footer{
@@ -38,3 +42,16 @@ ul li{
   background-color: white;
   min-height: 700px;
 }
+
+
+/* VERY CSS */
+header{
+  background-color: #2B3E50;
+}
+
+
+/* @media screen and(min-width:576px){
+  header .container .row .col h1{
+    font-size: 5rem;
+  }
+} */
