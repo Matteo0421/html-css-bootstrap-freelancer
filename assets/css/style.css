@@ -52,6 +52,31 @@ img{
   max-width: 100%;
 }
 
+.my-form input,
+.my-form textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.my-form input:focus,
+.my-form textarea:focus{
+  box-shadow: none;
+}
+
+.my-form input ::placeholder,
+.my-form textarea::placeholder{
+  color: #2b3d4f;
+}
+.my-button{
+  background-color: #1abc9c;
+  border: none;
+}
+
+.my-button:hover{
+  background-color: °137964;
+}
 
 
 /* @media screen and(min-width:576px){
