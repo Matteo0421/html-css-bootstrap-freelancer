@@ -1,18 +1,4 @@
-/* [class*='container'],
-[class^='col'],
-.debug{
-  background-color: rgba(0,255,0,.2);
-  border: 1px solid black;
-  height: 100%;
-} */
 
-.col{
-  height: 100%;
-}
-
-header{
-  background-color: #2B3E50;
-}
 
 footer{
   height: 200px;
@@ -23,24 +9,11 @@ ul li{
 }
 
 /* debug */
-.mc-card{
-  min-width: 300px;
-  min-height: 300px;
-}
+
 
 .mc-container{
   width: 70%;
   margin: 0 auto;
-}
-
-.section-light-green{
-  background-color: #19BC9C;
-  height: 500px;
-}
-
-.section-white{
-  background-color: white;
-  min-height: 700px;
 }
 
 
@@ -49,9 +22,40 @@ header{
   background-color: #2B3E50;
 }
 
+header .container .row div h3{
+  font-size: 1rem;
+}
+
+.section-light-green{
+  background-color: #19BC9C;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.section-white{
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.jumbo-row div h1{
+  font-size: 2rem;
+}
+
+.jumbo-row div img{
+  width: 250px;
+}
+
+img{
+  max-width: 100%;
+}
+
+
 
 /* @media screen and(min-width:576px){
-  header .container .row .col h1{
-    font-size: 5rem;
+  header .container .row div h3{
+    font-size: 5rem ;
   }
 } */
