@@ -3,17 +3,25 @@
 .debug{
   background-color: rgba(0,255,0,.2);
   border: 1px solid black;
-  min-height: 500px;
+  min-height: 100%;
 }
 
+header{
+  height: 70px;
+}
+
+footer{
+  height: 200px;
+}
 
 ul li{
   list-style: none;
 }
 
 /* debug */
-.card{
-  min-width: 200px;
+.mc-card{
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .mc-container{
@@ -23,8 +31,10 @@ ul li{
 
 .section-light-green{
   background-color: #19BC9C;
+  height: 500px;
 }
 
 .section-white{
   background-color: white;
+  min-height: 700px;
 }
