@@ -43,17 +43,29 @@ img{
   max-width: 100%;
 }
 
-.card-hover:hover {
+.mc-card{
+  position: relative;
+}
+
+.mc-card:hover {
   background-color: rgb(25, 188, 156);
 }
 
-.card-hover img:hover{
+.mc-card i{
+  display: none;
+  font-size: 5rem;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.mc-card img:hover{
   opacity: 0.5;
 }
 
-.card-hover i:hover{
+/* .mc-card i:hover{
   display: block;
-}
+} */
 
 .my-form input,
 .my-form textarea{
